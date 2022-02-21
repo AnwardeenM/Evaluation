@@ -1,0 +1,51 @@
+#container{
+    display: flex;
+    border: 1px solid red;
+}
+
+#sidebar{
+    width: 15%;
+    border: 2px solid black;
+    line-height: 20px;
+    margin: 10px;
+
+  }
+  #sidebar>div{
+    margin: 10px;
+    border: 1px solid black;
+  }
+  #sidebar>h2{
+    font-size:xx-large;
+    padding:10px;
+    margin:20px 10px; 
+    border: 1px solid black;
+  }
+  input{
+    padding: 5px 40px 5px 0px;
+    margin: 10px;
+    /* border: 1px solid black; */
+  }
+
+  #main{
+      width: 70%;
+     justify-content: center;
+     border: 1px solid black;
+  }
+  #main>div{
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      /* border: 1px solid red; */
+      margin: 30px;
+  }
+  #main>div>div{
+      width:50%;
+      cursor: pointer;
+      border: 1px solid black;      
+      height: 250px;
+  }
+  #main>div>img{
+      height: 250px;
+  }
+
+ 
